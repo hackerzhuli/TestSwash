@@ -1,0 +1,6 @@
+@TestSwash_HostAddress = http://localhost:5129
+
+GET {{TestSwash_HostAddress}}/test/swash?name=my_name
+Accept: application/json
+
+###
